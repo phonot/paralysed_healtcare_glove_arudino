@@ -131,7 +131,8 @@ void triggerFallAlarm(float x, float y, float z) {
   } else {
     lcd.print("Fall on Z Axis");
   }
-
+//_ah22bm012
+//_ah22bm013
   tone(speakerPin, 1500, 500); // High tone for fall detection
   sendSMS("1234567890", "Fall Detected!"); // Replace with the desired phone number
   delay(2000); // Keep the message on display for 2 seconds
@@ -181,3 +182,6 @@ void showSmileyFace() {
   lcd.setCursor(0, 0);
   lcd.print(":)"); // Display a simple smiley face
 }
+
+
+//ph
